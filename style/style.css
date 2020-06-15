@@ -1,0 +1,37 @@
+body {
+    overflow-x: hidden;
+}
+
+.fd {
+    background-color: ivory;
+    height: 35px;
+}
+
+.one {
+    float: left;
+    margin-left: 12px;
+}
+
+.two {
+    float: right;
+    margin-right: 12px;
+}
+
+.menuu {
+    margin-left: 100px;
+}
+
+@media only screen and (max-width:1024px) {
+    .menuu {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .one {
+        font-size: 10px;
+    }
+    .two {
+        font-size: 10px;
+    }
+}
